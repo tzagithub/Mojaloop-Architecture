@@ -138,11 +138,6 @@ Key services:
 
 ## Key Concepts
 
-### Two-Phase Transaction
-
-* Quote phase → validation
-* Transfer phase → execution
-
 ---
 
 ### Central Ledger
