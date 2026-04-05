@@ -10,6 +10,10 @@ Mojaloop enables interoperable digital payments using a hub-and-spoke model, all
 
 ## 🏗️ Architecture Diagram
 
+![Mojaloop Architecture](moja.png)
+
+## 🏗️ Architecture Diagram
+
 ```text
 Payer
   ↓
