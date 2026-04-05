@@ -1,16 +1,23 @@
-Mojaloop Architecture Design
+#Mojaloop Architecture Design
 
-API Layer (FSPIOP API)
+
+##API Layer (FSPIOP API)
 Standard interface used by all DFSPs to communicate.
-Switch
+
+##Switch
 Routes messages between DFSPs.
-Account Lookup Service (ALS)
+
+##Account Lookup Service (ALS)
 Resolves recipient details (e.g., phone → account).
-Quotes Service
+
+##Quotes Service
 Calculates fees and validates if a transaction can proceed.
-Transfers Service
+
+##Transfers Service
 Handles transaction execution and state management.
-Position / Central Ledger
+
+##Position / Central Ledger
 Tracks balances of each DFSP in real time.
-Settlement Service
+
+##Settlement Service
 Handles final settlement between DFSPs.
