@@ -1,6 +1,6 @@
-# 💸 Mojaloop Architecture
+# Mojaloop Architecture
 
-## 📌 Overview
+## Overview
 
 This project explains the fundamental architecture of Mojaloop, focusing on the Mojaloop Hub, Payment Manager (PM4ML), and the high-level transaction flow between Digital Financial Service Providers (DFSPs).
 
@@ -8,11 +8,11 @@ Mojaloop enables interoperable digital payments using a hub-and-spoke model, all
 
 ---
 
-## 🏗️ Architecture Diagram
+## Architecture Diagram
 
 ![Mojaloop Architecture](moja.png)
 
-## 🏗️ Architecture Diagram
+## Architecture Diagram
 
 ```text
 Payer
@@ -45,15 +45,15 @@ Payee
 
 ---
 
-## 🧱 Components
+## Components
 
-### 🔹 Payer & Payee
+### Payer & Payee
 
 End users who send and receive money.
 
 ---
 
-### 🔹 DFSP (Digital Financial Service Provider)
+### DFSP (Digital Financial Service Provider)
 
 Financial institutions such as banks or mobile wallets.
 
@@ -62,7 +62,7 @@ Financial institutions such as banks or mobile wallets.
 
 ---
 
-### 🔹 SDK Adapter
+### SDK Adapter
 
 Acts as a translator between DFSP systems and Mojaloop APIs.
 
@@ -71,7 +71,7 @@ Acts as a translator between DFSP systems and Mojaloop APIs.
 
 ---
 
-### 🔹 PM4ML (Payment Manager for Mojaloop)
+### PM4ML (Payment Manager for Mojaloop)
 
 A reference Mojaloop adapter that connects DFSPs to the Mojaloop Hub.
 
@@ -82,7 +82,7 @@ Includes:
 
 ---
 
-### 🔹 Mojaloop Hub
+### Mojaloop Hub
 
 The central system that manages and routes transactions.
 
@@ -96,7 +96,7 @@ Key services:
 
 ---
 
-## 🔄 High-Level Transaction Flow
+## High-Level Transaction Flow
 
 ### Step-by-Step Process
 
@@ -136,33 +136,33 @@ Key services:
 
 ---
 
-## 💡 Key Concepts
+## Key Concepts
 
-### 🔸 Two-Phase Transaction
+### Two-Phase Transaction
 
 * Quote phase → validation
 * Transfer phase → execution
 
 ---
 
-### 🔸 Central Ledger
+### Central Ledger
 
 Tracks the real-time balance of each DFSP within Mojaloop.
 
 ---
 
-### 🔸 Settlement
+### Settlement
 
 Handles net reconciliation between DFSPs after transactions are completed.
 
 ---
 
-### 🔸 PM4ML as Adapter
+### PM4ML as Adapter
 
 PM4ML is a reference implementation of a Mojaloop adapter that simplifies DFSP integration.
 
 ---
 
-## 📌 Conclusion
+## Conclusion
 
 Mojaloop provides a scalable and interoperable payment system by using a centralized hub and standardized adapters like PM4ML. It ensures secure, real-time transaction processing while enabling efficient settlement between financial institutions.
