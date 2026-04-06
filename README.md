@@ -44,6 +44,20 @@ Payee
 ```
 
 ---
+1. GET /parties
+2. POST /quotes
+3. PUT /transfers
+
+        ↓
+
+[ Mojaloop Hub ]
+   ├── Prepare Handler (validation)
+   ├── Position Handler (balance check)
+   └── Central Ledger (record money)
+
+        ↓
+
+4. PUT /fulfil
 
 ## Components
 
