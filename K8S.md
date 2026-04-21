@@ -27,3 +27,7 @@ This lab covers:
 
 A Deployment is created using the nginx image.
 
+## Architecture Diagram
+
+![Mojaloop Architecture](moja.png)
+
